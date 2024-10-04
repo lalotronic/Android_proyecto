@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Desafio01" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/green_200</item>
+        <item name="colorPrimaryVariant">@color/green_500</item>
+    </style>
+
+    <style name="Theme.Desafio01" parent="Base.Theme.Desafio01" />
+
+    <style name="Theme.Desafio01.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Desafio01.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Desafio01.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
